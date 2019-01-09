@@ -1,0 +1,23 @@
+{
+  "name": "home-screen",
+  "version": "1.0.0",
+  "description": "Home screen showing e.g. weather information.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robert-skarzycki/home-screen.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/robert-skarzycki/home-screen/issues"
+  },
+  "homepage": "https://github.com/robert-skarzycki/home-screen#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
