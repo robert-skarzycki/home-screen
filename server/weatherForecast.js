@@ -6,7 +6,7 @@ const WeatherForecast = function () {
 
     const getImageUrl = function () {
         const formattedDate = moment(new Date()).format('YYYYMMDD00');
-        const imageUrl = `http://www.meteo.pl/um/metco/mgram_pict.php?ntype=0u&fdate=${formattedDate}row=436&col=181&lang=pl`;
+        const imageUrl = `http://www.meteo.pl/um/metco/mgram_pict.php?ntype=0u&fdate=${formattedDate}&row=436&col=181&lang=pl`;
         return fetch.remote(imageUrl).then(imageData => `data:image/png;base64,${imageData[0]}`);
     };
 
