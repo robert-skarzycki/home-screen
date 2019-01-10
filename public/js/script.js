@@ -14,6 +14,15 @@ $(function () {
         });
     };
 
+    var getWeatherForecast = function () {
+        var $imageContainer = $('img[weather-forecast]');
+
+        $.getJSON('/api/forecast-url').then(function (data) {
+            $imageContainer.attr('src', data.imageData);
+        });
+    };
+
     getTemperature();
     getPollution();
+    getWeatherForecast();
 });

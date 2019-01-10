@@ -21,6 +21,8 @@
     "axios": "^0.18.0",
     "dotenv": "^6.2.0",
     "express": "^4.16.4",
+    "fetch-base64": "^2.1.2",
+    "moment": "^2.23.0",
     "querystring": "^0.2.0"
   }
 }
